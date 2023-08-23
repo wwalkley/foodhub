@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hJDFpqhctalz4YMiKRLnhOx0js1L0m2jJWyNO3fcfVf5J7qx0WO3dulEjBSU508SuOvyQpYJKz65flkW56WH6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\william.walkley\\RiderProjects\\FoodHub\\FoodHub\\FoodHub.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\william.walkley\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\william.walkley\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\william.walkley\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\william.walkley\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\william.walkley\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\william.walkley\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

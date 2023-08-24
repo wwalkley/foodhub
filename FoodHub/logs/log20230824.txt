@@ -1,0 +1,314 @@
+2023-08-24 13:53:52.132 +12:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-24 13:53:52.204 +12:00 [DBG] Hosting starting
+2023-08-24 13:53:52.270 +12:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 10B125BFCE15A135688106CE4A1DEF7CEBC0D92D)
+2023-08-24 13:53:52.301 +12:00 [INF] Now listening on: https://localhost:7023
+2023-08-24 13:53:52.303 +12:00 [INF] Now listening on: http://localhost:5001
+2023-08-24 13:53:52.304 +12:00 [DBG] Loaded hosting startup assembly FoodHub
+2023-08-24 13:53:52.306 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-24 13:53:52.307 +12:00 [INF] Hosting environment: Development
+2023-08-24 13:53:52.308 +12:00 [INF] Content root path: C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\
+2023-08-24 13:53:52.309 +12:00 [DBG] Hosting started
+2023-08-24 13:53:52.637 +12:00 [DBG] Connection id "0HMT48JRTU0O6" received FIN.
+2023-08-24 13:53:52.646 +12:00 [DBG] Connection id "0HMT48JRTU0O6" accepted.
+2023-08-24 13:53:52.648 +12:00 [DBG] Connection id "0HMT48JRTU0O6" started.
+2023-08-24 13:53:52.658 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-24 13:53:52.674 +12:00 [DBG] Connection id "0HMT48JRTU0O6" stopped.
+2023-08-24 13:53:52.676 +12:00 [DBG] Connection id "0HMT48JRTU0O6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-24 13:53:52.758 +12:00 [DBG] Connection id "0HMT48JRTU0O7" accepted.
+2023-08-24 13:53:52.760 +12:00 [DBG] Connection id "0HMT48JRTU0O7" started.
+2023-08-24 13:53:52.781 +12:00 [DBG] Connection id "0HMT48JRTU0O7" received FIN.
+2023-08-24 13:53:52.781 +12:00 [DBG] Connection id "0HMT48JRTU0O8" accepted.
+2023-08-24 13:53:52.783 +12:00 [DBG] Connection id "0HMT48JRTU0O8" started.
+2023-08-24 13:53:52.784 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-24 13:53:52.790 +12:00 [DBG] Connection id "0HMT48JRTU0O7" stopped.
+2023-08-24 13:53:52.791 +12:00 [DBG] Connection id "0HMT48JRTU0O7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-24 13:53:52.794 +12:00 [DBG] Connection 0HMT48JRTU0O8 established using the following protocol: "Tls12"
+2023-08-24 13:53:52.828 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger - -
+2023-08-24 13:53:52.832 +12:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-24 13:53:52.850 +12:00 [DBG] No candidates found for the request path '/swagger'
+2023-08-24 13:53:52.853 +12:00 [DBG] Request did not match any endpoints
+2023-08-24 13:53:52.883 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger - - - 301 0 - 57.7547ms
+2023-08-24 13:53:52.886 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/index.html - -
+2023-08-24 13:53:52.886 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-24 13:53:52.887 +12:00 [DBG] Request did not match any endpoints
+2023-08-24 13:53:52.928 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/index.html - - - 200 - text/html;charset=utf-8 41.9150ms
+2023-08-24 13:53:52.941 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/swagger-ui.css - -
+2023-08-24 13:53:52.941 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/swagger-ui-standalone-preset.js - -
+2023-08-24 13:53:52.941 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/swagger-ui-bundle.js - -
+2023-08-24 13:53:52.941 +12:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-08-24 13:53:52.942 +12:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-08-24 13:53:52.943 +12:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-08-24 13:53:52.945 +12:00 [DBG] Request did not match any endpoints
+2023-08-24 13:53:52.946 +12:00 [DBG] Request did not match any endpoints
+2023-08-24 13:53:52.947 +12:00 [DBG] Request did not match any endpoints
+2023-08-24 13:53:52.961 +12:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-24 13:53:52.961 +12:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-24 13:53:52.963 +12:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-24 13:53:52.963 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 22.7214ms
+2023-08-24 13:53:52.963 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/swagger-ui.css - - - 200 143632 text/css 22.7938ms
+2023-08-24 13:53:52.965 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 24.2147ms
+2023-08-24 13:53:53.132 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/v1/swagger.json - -
+2023-08-24 13:53:53.133 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-24 13:53:53.135 +12:00 [DBG] Request did not match any endpoints
+2023-08-24 13:53:53.223 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.9904ms
+2023-08-24 13:54:38.171 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/api/ingredients - -
+2023-08-24 13:54:38.176 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients'
+2023-08-24 13:54:38.180 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)' with route pattern 'api/ingredients' is valid for the request path '/api/ingredients'
+2023-08-24 13:54:38.181 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:54:38.182 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:54:38.184 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:54:38.190 +12:00 [INF] Route matched with {action = "GetIngredients", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] GetIngredients() on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:54:38.192 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:54:38.194 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:54:38.195 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:54:38.196 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:54:38.197 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:54:38.199 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:54:38.200 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:54:38.202 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 13:54:38.206 +12:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-24 13:54:38.207 +12:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 13:54:38.208 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-24 13:54:38.209 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-24 13:54:38.211 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-24 13:54:38.213 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.ObjectModel.Collection`1[[FoodHub.Models.Ingredient, FoodHub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-24 13:54:38.287 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.GetIngredients (FoodHub) in 85.2529ms
+2023-08-24 13:54:38.288 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:54:38.289 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/api/ingredients - - - 200 194 application/json;+charset=utf-8 118.5531ms
+2023-08-24 13:54:56.496 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7023/api/ingredients application/json-patch+json 22
+2023-08-24 13:54:56.499 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients'
+2023-08-24 13:54:56.500 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.Create (FoodHub)' with route pattern 'api/ingredients' is valid for the request path '/api/ingredients'
+2023-08-24 13:54:56.502 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.Create (FoodHub)'
+2023-08-24 13:54:56.503 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:54:56.503 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.Create (FoodHub)'
+2023-08-24 13:54:56.518 +12:00 [INF] Route matched with {action = "Create", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] Create(FoodHub.Models.Ingredient) on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:54:56.520 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:54:56.521 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:54:56.522 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:54:56.524 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:54:56.525 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:54:56.526 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:54:56.527 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:54:56.530 +12:00 [DBG] Attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient' ...
+2023-08-24 13:54:56.532 +12:00 [DBG] Attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient' using the name '' in request data ...
+2023-08-24 13:54:56.533 +12:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-24 13:54:56.537 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-24 13:54:56.540 +12:00 [DBG] Connection id "0HMT48JRTU0O8", Request id "0HMT48JRTU0O8:0000000F": started reading request body.
+2023-08-24 13:54:56.541 +12:00 [DBG] Connection id "0HMT48JRTU0O8", Request id "0HMT48JRTU0O8:0000000F": done reading request body.
+2023-08-24 13:54:56.564 +12:00 [DBG] Done attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:54:56.566 +12:00 [DBG] Done attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:54:56.566 +12:00 [DBG] Attempting to validate the bound parameter 'request' of type 'FoodHub.Models.Ingredient' ...
+2023-08-24 13:54:56.573 +12:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:54:56.575 +12:00 [INF] Created Ingredient with id '"00000000-0000-0000-0000-000000000000"'
+2023-08-24 13:54:56.576 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 13:54:56.578 +12:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-24 13:54:56.579 +12:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 13:54:56.580 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-24 13:54:56.580 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-24 13:54:56.581 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-24 13:54:56.582 +12:00 [INF] Executing CreatedAtRouteResult, writing value of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:54:56.594 +12:00 [DBG] Found the endpoints ["FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2023-08-24 13:54:56.599 +12:00 [DBG] Successfully processed template api/ingredients/{id} for FoodHub.Controllers.IngredientController.GetIngredient (FoodHub) resulting in /api/ingredients/00000000-0000-0000-0000-000000000000 and 
+2023-08-24 13:54:56.601 +12:00 [DBG] Link generation succeeded for endpoints ["FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)"] with result /api/ingredients/00000000-0000-0000-0000-000000000000
+2023-08-24 13:54:56.602 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.Create (FoodHub) in 76.5484ms
+2023-08-24 13:54:56.603 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.Create (FoodHub)'
+2023-08-24 13:54:56.605 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7023/api/ingredients application/json-patch+json 22 - 201 61 application/json;+charset=utf-8 108.3713ms
+2023-08-24 13:55:07.006 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/api/ingredients - -
+2023-08-24 13:55:07.008 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients'
+2023-08-24 13:55:07.010 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)' with route pattern 'api/ingredients' is valid for the request path '/api/ingredients'
+2023-08-24 13:55:07.012 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:55:07.013 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:55:07.013 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:55:07.014 +12:00 [INF] Route matched with {action = "GetIngredients", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] GetIngredients() on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:55:07.016 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:55:07.017 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:55:07.018 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:55:07.019 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:55:07.020 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:55:07.022 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:07.023 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:07.024 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 13:55:07.026 +12:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-24 13:55:07.027 +12:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 13:55:07.028 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-24 13:55:07.028 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-24 13:55:07.029 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-24 13:55:07.030 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.ObjectModel.Collection`1[[FoodHub.Models.Ingredient, FoodHub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-24 13:55:07.031 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.GetIngredients (FoodHub) in 9.4438ms
+2023-08-24 13:55:07.032 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:55:07.034 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/api/ingredients - - - 200 256 application/json;+charset=utf-8 27.2763ms
+2023-08-24 13:55:26.418 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690 - -
+2023-08-24 13:55:26.420 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690'
+2023-08-24 13:55:26.421 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)' with route pattern 'api/ingredients/{id}' is valid for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690'
+2023-08-24 13:55:26.422 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)'
+2023-08-24 13:55:26.423 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:55:26.423 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)'
+2023-08-24 13:55:26.425 +12:00 [INF] Route matched with {action = "GetIngredient", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] GetIngredient(System.Guid) on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:55:26.427 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:55:26.428 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:55:26.430 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:55:26.431 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:55:26.432 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:55:26.433 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:26.434 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:26.435 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:55:26.436 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2023-08-24 13:55:26.438 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:26.438 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:26.439 +12:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:55:26.440 +12:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:26.441 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 13:55:26.443 +12:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-24 13:55:26.444 +12:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 13:55:26.446 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-24 13:55:26.448 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-24 13:55:26.448 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-24 13:55:26.449 +12:00 [INF] Executing OkObjectResult, writing value of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:55:26.450 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.GetIngredient (FoodHub) in 16.9348ms
+2023-08-24 13:55:26.451 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)'
+2023-08-24 13:55:26.452 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690 - - - 200 65 application/json;+charset=utf-8 34.5866ms
+2023-08-24 13:55:38.241 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198696 - -
+2023-08-24 13:55:38.243 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198696'
+2023-08-24 13:55:38.244 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)' with route pattern 'api/ingredients/{id}' is valid for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198696'
+2023-08-24 13:55:38.245 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)'
+2023-08-24 13:55:38.246 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:55:38.247 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)'
+2023-08-24 13:55:38.248 +12:00 [INF] Route matched with {action = "GetIngredient", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] GetIngredient(System.Guid) on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:55:38.250 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:55:38.251 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:55:38.253 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:55:38.254 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:55:38.255 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:55:38.256 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:38.257 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:38.258 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:55:38.259 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2023-08-24 13:55:38.260 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:38.261 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:38.262 +12:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:55:38.263 +12:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:38.264 +12:00 [INF] Ingredient with Id '"886b47fc-39db-4e61-b7fb-c529bd198696"' was not found
+2023-08-24 13:55:38.265 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 13:55:38.269 +12:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-08-24 13:55:38.272 +12:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 13:55:38.273 +12:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2023-08-24 13:55:38.275 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-08-24 13:55:38.276 +12:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-08-24 13:55:38.290 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.GetIngredient (FoodHub) in 33.9541ms
+2023-08-24 13:55:38.293 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.GetIngredient (FoodHub)'
+2023-08-24 13:55:38.294 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198696 - - - 404 161 application/problem+json;+charset=utf-8 52.8447ms
+2023-08-24 13:55:57.324 +12:00 [INF] Request starting HTTP/2 PUT https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690 application/json-patch+json 21
+2023-08-24 13:55:57.326 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690'
+2023-08-24 13:55:57.328 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.Update (FoodHub)' with route pattern 'api/ingredients/{id}' is valid for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690'
+2023-08-24 13:55:57.329 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.Update (FoodHub)'
+2023-08-24 13:55:57.330 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:55:57.330 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.Update (FoodHub)'
+2023-08-24 13:55:57.334 +12:00 [INF] Route matched with {action = "Update", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] Update(System.Guid, FoodHub.Models.Ingredient) on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:55:57.335 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:55:57.336 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:55:57.337 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:55:57.338 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:55:57.339 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:55:57.342 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:57.343 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:55:57.344 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:55:57.345 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2023-08-24 13:55:57.346 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:57.347 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:57.348 +12:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:55:57.349 +12:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2023-08-24 13:55:57.350 +12:00 [DBG] Attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient' ...
+2023-08-24 13:55:57.351 +12:00 [DBG] Attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient' using the name '' in request data ...
+2023-08-24 13:55:57.352 +12:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-08-24 13:55:57.353 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-08-24 13:55:57.354 +12:00 [DBG] Connection id "0HMT48JRTU0O8", Request id "0HMT48JRTU0O8:00000017": started reading request body.
+2023-08-24 13:55:57.354 +12:00 [DBG] Connection id "0HMT48JRTU0O8", Request id "0HMT48JRTU0O8:00000017": done reading request body.
+2023-08-24 13:55:57.355 +12:00 [DBG] Done attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:55:57.357 +12:00 [DBG] Done attempting to bind parameter 'request' of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:55:57.359 +12:00 [DBG] Attempting to validate the bound parameter 'request' of type 'FoodHub.Models.Ingredient' ...
+2023-08-24 13:55:57.360 +12:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'FoodHub.Models.Ingredient'.
+2023-08-24 13:55:57.364 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-08-24 13:55:57.364 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.Update (FoodHub) in 22.1072ms
+2023-08-24 13:55:57.365 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.Update (FoodHub)'
+2023-08-24 13:55:57.366 +12:00 [INF] Request finished HTTP/2 PUT https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690 application/json-patch+json 21 - 204 - - 41.8011ms
+2023-08-24 13:56:01.920 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/api/ingredients - -
+2023-08-24 13:56:01.921 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients'
+2023-08-24 13:56:01.923 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)' with route pattern 'api/ingredients' is valid for the request path '/api/ingredients'
+2023-08-24 13:56:01.924 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:56:01.926 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:56:01.927 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:56:01.928 +12:00 [INF] Route matched with {action = "GetIngredients", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] GetIngredients() on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:56:01.929 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:56:01.930 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:56:01.932 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:56:01.933 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:56:01.934 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:56:01.935 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:56:01.936 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:56:01.937 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 13:56:01.940 +12:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-24 13:56:01.941 +12:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 13:56:01.942 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-24 13:56:01.943 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-24 13:56:01.944 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-24 13:56:01.945 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.ObjectModel.Collection`1[[FoodHub.Models.Ingredient, FoodHub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-24 13:56:01.947 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.GetIngredients (FoodHub) in 11.5327ms
+2023-08-24 13:56:01.948 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:56:01.949 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/api/ingredients - - - 200 251 application/json;+charset=utf-8 28.9211ms
+2023-08-24 13:56:24.439 +12:00 [INF] Request starting HTTP/2 DELETE https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690 - -
+2023-08-24 13:56:24.441 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690'
+2023-08-24 13:56:24.442 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.Delete (FoodHub)' with route pattern 'api/ingredients/{id}' is valid for the request path '/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690'
+2023-08-24 13:56:24.443 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.Delete (FoodHub)'
+2023-08-24 13:56:24.444 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:56:24.444 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.Delete (FoodHub)'
+2023-08-24 13:56:24.446 +12:00 [INF] Route matched with {action = "Delete", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(System.Guid) on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:56:24.447 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:56:24.448 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:56:24.449 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:56:24.452 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:56:24.453 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:56:24.454 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:56:24.455 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:56:24.456 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:56:24.457 +12:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2023-08-24 13:56:24.458 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:56:24.458 +12:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-08-24 13:56:24.459 +12:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2023-08-24 13:56:24.460 +12:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2023-08-24 13:56:24.461 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-08-24 13:56:24.462 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.Delete (FoodHub) in 8.2314ms
+2023-08-24 13:56:24.463 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.Delete (FoodHub)'
+2023-08-24 13:56:24.464 +12:00 [INF] Request finished HTTP/2 DELETE https://localhost:7023/api/ingredients/886b47fc-39db-4e61-b7fb-c529bd198690 - - - 204 - - 25.1017ms
+2023-08-24 13:56:26.843 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/api/ingredients - -
+2023-08-24 13:56:26.845 +12:00 [DBG] 1 candidate(s) found for the request path '/api/ingredients'
+2023-08-24 13:56:26.847 +12:00 [DBG] Endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)' with route pattern 'api/ingredients' is valid for the request path '/api/ingredients'
+2023-08-24 13:56:26.848 +12:00 [DBG] Request matched endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:56:26.849 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 13:56:26.849 +12:00 [INF] Executing endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:56:26.850 +12:00 [INF] Route matched with {action = "GetIngredients", controller = "Ingredient"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodHub.Models.Ingredient] GetIngredients() on controller FoodHub.Controllers.IngredientController (FoodHub).
+2023-08-24 13:56:26.852 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 13:56:26.853 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 13:56:26.854 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 13:56:26.855 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 13:56:26.856 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 13:56:26.857 +12:00 [DBG] Executing controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:56:26.858 +12:00 [DBG] Executed controller factory for controller FoodHub.Controllers.IngredientController (FoodHub)
+2023-08-24 13:56:26.859 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 13:56:26.861 +12:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-24 13:56:26.862 +12:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 13:56:26.863 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-24 13:56:26.864 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-24 13:56:26.864 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-24 13:56:26.865 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.ObjectModel.Collection`1[[FoodHub.Models.Ingredient, FoodHub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-24 13:56:26.866 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.GetIngredients (FoodHub) in 9.1412ms
+2023-08-24 13:56:26.868 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
+2023-08-24 13:56:26.869 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/api/ingredients - - - 200 190 application/json;+charset=utf-8 25.7157ms

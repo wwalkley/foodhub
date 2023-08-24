@@ -312,3 +312,11 @@ System.Security.Authentication.AuthenticationException: Authentication failed, s
 2023-08-24 13:56:26.866 +12:00 [INF] Executed action FoodHub.Controllers.IngredientController.GetIngredients (FoodHub) in 9.1412ms
 2023-08-24 13:56:26.868 +12:00 [INF] Executed endpoint 'FoodHub.Controllers.IngredientController.GetIngredients (FoodHub)'
 2023-08-24 13:56:26.869 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/api/ingredients - - - 200 190 application/json;+charset=utf-8 25.7157ms
+2023-08-24 13:58:38.516 +12:00 [DBG] Connection id "0HMT48JRTU0O8" is closing.
+2023-08-24 13:58:38.521 +12:00 [DBG] Connection id "0HMT48JRTU0O8" is closed. The last processed stream ID was 29.
+2023-08-24 13:58:38.523 +12:00 [DBG] Connection id "0HMT48JRTU0O8" received FIN.
+2023-08-24 13:58:38.524 +12:00 [DBG] Connection id "0HMT48JRTU0O8" stopped.
+2023-08-24 13:58:38.526 +12:00 [DBG] Connection id "0HMT48JRTU0O8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-24 13:58:44.655 +12:00 [INF] Application is shutting down...
+2023-08-24 13:58:44.656 +12:00 [DBG] Hosting stopping
+2023-08-24 13:58:44.660 +12:00 [DBG] Hosting stopped

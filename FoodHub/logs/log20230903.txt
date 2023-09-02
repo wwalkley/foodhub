@@ -1,0 +1,105 @@
+2023-09-03 10:23:23.159 +12:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-03 10:23:23.285 +12:00 [DBG] Hosting starting
+2023-09-03 10:23:23.412 +12:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 10B125BFCE15A135688106CE4A1DEF7CEBC0D92D)
+2023-09-03 10:23:23.463 +12:00 [INF] Now listening on: https://localhost:7023
+2023-09-03 10:23:23.466 +12:00 [INF] Now listening on: http://localhost:5001
+2023-09-03 10:23:23.469 +12:00 [DBG] Loaded hosting startup assembly FoodHub
+2023-09-03 10:23:23.472 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-03 10:23:23.474 +12:00 [INF] Hosting environment: Development
+2023-09-03 10:23:23.475 +12:00 [INF] Content root path: C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\
+2023-09-03 10:23:23.478 +12:00 [DBG] Hosting started
+2023-09-03 10:23:23.973 +12:00 [DBG] Connection id "0HMTC0CSBMBT2" received FIN.
+2023-09-03 10:23:23.982 +12:00 [DBG] Connection id "0HMTC0CSBMBT2" accepted.
+2023-09-03 10:23:23.986 +12:00 [DBG] Connection id "0HMTC0CSBMBT2" started.
+2023-09-03 10:23:24.009 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-03 10:23:24.040 +12:00 [DBG] Connection id "0HMTC0CSBMBT2" stopped.
+2023-09-03 10:23:24.045 +12:00 [DBG] Connection id "0HMTC0CSBMBT2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-03 10:23:24.505 +12:00 [DBG] Connection id "0HMTC0CSBMBT3" accepted.
+2023-09-03 10:23:24.508 +12:00 [DBG] Connection id "0HMTC0CSBMBT3" started.
+2023-09-03 10:23:24.508 +12:00 [DBG] Connection id "0HMTC0CSBMBT4" accepted.
+2023-09-03 10:23:24.513 +12:00 [DBG] Connection id "0HMTC0CSBMBT4" started.
+2023-09-03 10:23:24.561 +12:00 [DBG] Connection id "0HMTC0CSBMBT4" received FIN.
+2023-09-03 10:23:24.561 +12:00 [DBG] Connection id "0HMTC0CSBMBT3" received FIN.
+2023-09-03 10:23:24.570 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-03 10:23:24.570 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-03 10:23:24.579 +12:00 [DBG] Connection id "0HMTC0CSBMBT3" stopped.
+2023-09-03 10:23:24.583 +12:00 [DBG] Connection id "0HMTC0CSBMBT4" stopped.
+2023-09-03 10:23:24.584 +12:00 [DBG] Connection id "0HMTC0CSBMBT3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-03 10:23:24.586 +12:00 [DBG] Connection id "0HMTC0CSBMBT4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-03 10:23:30.789 +12:00 [DBG] Connection id "0HMTC0CSBMBT5" accepted.
+2023-09-03 10:23:30.793 +12:00 [DBG] Connection id "0HMTC0CSBMBT5" started.
+2023-09-03 10:23:30.793 +12:00 [DBG] Connection id "0HMTC0CSBMBT6" accepted.
+2023-09-03 10:23:30.799 +12:00 [DBG] Connection id "0HMTC0CSBMBT6" started.
+2023-09-03 10:23:30.799 +12:00 [DBG] Connection id "0HMTC0CSBMBT5" received FIN.
+2023-09-03 10:23:30.800 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-03 10:23:30.803 +12:00 [DBG] Connection id "0HMTC0CSBMBT6" received FIN.
+2023-09-03 10:23:30.804 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-03 10:23:30.804 +12:00 [DBG] Connection id "0HMTC0CSBMBT7" accepted.
+2023-09-03 10:23:30.808 +12:00 [DBG] Connection id "0HMTC0CSBMBT5" stopped.
+2023-09-03 10:23:30.815 +12:00 [DBG] Connection id "0HMTC0CSBMBT6" stopped.
+2023-09-03 10:23:30.818 +12:00 [DBG] Connection id "0HMTC0CSBMBT7" started.
+2023-09-03 10:23:30.819 +12:00 [DBG] Connection id "0HMTC0CSBMBT5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-03 10:23:30.822 +12:00 [DBG] Connection id "0HMTC0CSBMBT6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-03 10:23:30.840 +12:00 [DBG] Connection 0HMTC0CSBMBT7 established using the following protocol: "Tls12"
+2023-09-03 10:23:30.908 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger - -
+2023-09-03 10:23:30.911 +12:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-03 10:23:30.937 +12:00 [DBG] No candidates found for the request path '/swagger'
+2023-09-03 10:23:30.940 +12:00 [DBG] Request did not match any endpoints
+2023-09-03 10:23:30.988 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger - - - 301 0 - 84.8289ms
+2023-09-03 10:23:30.992 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/index.html - -
+2023-09-03 10:23:30.994 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-03 10:23:30.998 +12:00 [DBG] Request did not match any endpoints
+2023-09-03 10:23:31.051 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/index.html - - - 200 - text/html;charset=utf-8 58.7108ms
+2023-09-03 10:23:31.082 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/swagger-ui-bundle.js - -
+2023-09-03 10:23:31.082 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/swagger-ui.css - -
+2023-09-03 10:23:31.082 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/swagger-ui-standalone-preset.js - -
+2023-09-03 10:23:31.085 +12:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-03 10:23:31.088 +12:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-03 10:23:31.090 +12:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-03 10:23:31.092 +12:00 [DBG] Request did not match any endpoints
+2023-09-03 10:23:31.095 +12:00 [DBG] Request did not match any endpoints
+2023-09-03 10:23:31.097 +12:00 [DBG] Request did not match any endpoints
+2023-09-03 10:23:31.119 +12:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-03 10:23:31.132 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/swagger-ui.css - - - 200 143632 text/css 50.2876ms
+2023-09-03 10:23:31.133 +12:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-03 10:23:31.137 +12:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-03 10:23:31.139 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 57.1701ms
+2023-09-03 10:23:31.142 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 60.1330ms
+2023-09-03 10:23:31.405 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/v1/swagger.json - -
+2023-09-03 10:23:31.408 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-03 10:23:31.411 +12:00 [DBG] Request did not match any endpoints
+2023-09-03 10:23:31.430 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7023/swagger/favicon-32x32.png - -
+2023-09-03 10:23:31.432 +12:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-09-03 10:23:31.434 +12:00 [DBG] Request did not match any endpoints
+2023-09-03 10:23:31.436 +12:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-09-03 10:23:31.439 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/favicon-32x32.png - - - 200 628 image/png 8.4929ms
+2023-09-03 10:23:31.546 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7023/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.8420ms
+2023-09-03 10:25:43.548 +12:00 [DBG] Connection id "0HMTC0CSBMBT7" is closing.
+2023-09-03 10:25:43.565 +12:00 [DBG] Connection id "0HMTC0CSBMBT7" is closed. The last processed stream ID was 13.
+2023-09-03 10:25:43.568 +12:00 [DBG] Connection id "0HMTC0CSBMBT7" received FIN.
+2023-09-03 10:25:43.571 +12:00 [DBG] Connection id "0HMTC0CSBMBT7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-03 10:25:43.574 +12:00 [DBG] Connection id "0HMTC0CSBMBT7" stopped.

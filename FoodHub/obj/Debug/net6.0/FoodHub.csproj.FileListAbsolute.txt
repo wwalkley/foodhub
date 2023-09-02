@@ -39,3 +39,7 @@ C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\Serilog.
 C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\www\package-lock.json
+C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\www\package.json
+C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\www\tsconfig.json
+C:\Users\william.walkley\RiderProjects\FoodHub\FoodHub\bin\Debug\net6.0\www\tsconfig.node.json

@@ -15,4 +15,11 @@
 	</ItemGroup>
 
 
+	<ItemGroup>
+	  <Folder Include="www\src\assets\" />
+	  <Folder Include="www\src\layouts\default\" />
+	  <Folder Include="www\src\plugins\" />
+	  <Folder Include="www\src\router\" />
+	</ItemGroup>
+
 </Project>

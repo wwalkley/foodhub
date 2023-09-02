@@ -1,7 +1,7 @@
 <template>
-  <HelloWorld />
+  <ingredient-list/>
 </template>
 
 <script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+import IngredientList from "@/components/IngredientList.vue";
 </script>
